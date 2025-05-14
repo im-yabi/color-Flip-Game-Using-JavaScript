@@ -1,0 +1,44 @@
+
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    padding:  10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffc107e3;
+}
+
+.nav-link:hover {
+    color: #ff8c00;
+}
+
+/* News Cards */
+.card img {
+    height: 200px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #ffc107;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Additional Styling */
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+/* Override Bootstrap Container Padding */
+.container-fluid {
+    padding: 0 !important;
+}
