@@ -1,44 +1,26 @@
-
-
-/* Navbar */
-.navbar {
-    background-color: #343a40;
-    padding:  10px 20px;
+body{
+    background-color: rgb(55, 231, 184);
+    margin: 0;
 }
-
-.navbar-brand {
-    font-size: 1.5rem;
+h1{
+    color : rgb(67, 75, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
 }
-
-.nav-link {
-    color: #ffc107e3;
+.boxes{
+    margin: 48px auto;
+    width : max-content;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 20px;
+    box-sizing: border-box;
 }
-
-.nav-link:hover {
-    color: #ff8c00;
-}
-
-/* News Cards */
-.card img {
-    height: 200px; 
-    object-fit: cover; 
-    width: 100%; 
-}
-
-/* Footer */
-.footer {
-    background-color: #343a40;
-    color: #ffc107;
-    padding: 10px;
-    text-align: center;
-}
-
-/* Additional Styling */
-.mt-5 {
-    margin-top: 3rem !important;
-}
-
-/* Override Bootstrap Container Padding */
-.container-fluid {
-    padding: 0 !important;
+.box{
+    height : 100px;
+    background-color:#636161;
+    border: 3px solid aliceblue;
+    cursor: pointer;
+    border-radius: 8px;
 }
